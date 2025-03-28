@@ -20,7 +20,7 @@ const App = () => (
       <SidebarProvider defaultOpen={false}>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/Cascade-Space/">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
