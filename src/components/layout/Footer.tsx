@@ -76,7 +76,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">contact@cascadespace.com</a>
+                <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">Loayalty Program Solutions</a>
               </li>
               <li>
                 <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">
@@ -91,7 +91,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <Mail size={18} className="text-cascade-600 mt-0.5" />
-                <span className="text-slate-600">contact@cascade-technologies.com</span>
+                <span className="text-slate-600">contact@cascadespace.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-cascade-600 mt-0.5" />

@@ -2,12 +2,15 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Linkedin } from "lucide-react";
+  import akshay from "@/assets/Akshay_pic.png";
+import manoj from "@/assets/manoj_pic.png";
+import vaibhava from "@/assets/Vaibhav_pic.png";
 export function Team() {
   const teamMembers = [{
     name: "Akshay Kumar Ankalagi",
     role: "Chief Executive Officer",
     bio: "Visionary leader spearheading CascadeTech's strategic initiatives and growth across global markets.",
-    image: "/lovable-uploads/be98e5e5-99ac-4c7b-ac30-866513171c74.png",
+    image: akshay,
     links: {
       linkedin: "https://www.linkedin.com/in/akshaykumar-ankalagi-10b37933a"
     }
@@ -15,7 +18,7 @@ export function Team() {
     name: "Manoj Relekar",
     role: "Chief Operating Officer",
     bio: "Operational mastermind ensuring efficient execution and organizational excellence across our ventures.",
-    image: "/lovable-uploads/70b40e32-bd68-4d8b-a372-025f2489b8df.png",
+    image: manoj,
     links: {
       linkedin: "https://www.linkedin.com/in/manojrelekar3/"
     }
@@ -23,7 +26,7 @@ export function Team() {
     name: "Vaibhava BG",
     role: "Chief Technology Officer",
     bio: "Tech innovator developing cutting-edge solutions that power our platforms and client success stories.",
-    image: "/lovable-uploads/801e4b6c-582c-475b-b9de-c4a3d531051f.png",
+    image: vaibhava,
     links: {
       linkedin: "https://www.linkedin.com/in/vaibhav-b-g-284b63346"
     }
