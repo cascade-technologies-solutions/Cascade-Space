@@ -1,13 +1,14 @@
 import { Container } from "@/components/ui/Container";
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import logo from "@/assets/logo.png";
 export function Footer() {
   return <footer className="bg-slate-50 border-t border-slate-200">
       <Container className="py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-2">
-              <img src="/lovable-uploads/985cbb85-f808-4e11-8851-32d7798478d8.png" alt="CascadeTech Logo" className="h-10" />
+              <img src={logo} alt="CascadeTech Logo" className="h-10" />
               <span className="text-xl font-display font-bold text-cascade-950">
                 <span className="text-cascade-600">CascadeTech</span> Solutions
               </span>

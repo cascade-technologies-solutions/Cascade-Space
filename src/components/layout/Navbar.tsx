@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-
+import logo from "@/assets/logo.png";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -46,7 +46,7 @@ export function Navbar() {
             className="flex items-center gap-2 z-50"
           >
             <img 
-              src="/lovable-uploads/985cbb85-f808-4e11-8851-32d7798478d8.png" 
+              src={logo} 
               alt="CascadeTech Logo" 
               className={cn(
                 "transition-all duration-300",

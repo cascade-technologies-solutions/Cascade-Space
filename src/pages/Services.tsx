@@ -99,7 +99,7 @@ const Services = () => {
                 Accelerate Startup Growth
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-                We provide platforms and tools that help startups grow, connect
+                We provide platform with tools that help startups grow, connect
                 with investors, and prepare for successful funding rounds.
               </p>
               <div className="mt-8 space-y-4">

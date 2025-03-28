@@ -3,12 +3,15 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Linkedin, Mail } from "lucide-react";
+import akshay from "../assets/Akshay_pic.png";
+import manoj from "../assets/manoj_pic.png";
+import vaibhava from "../assets/Vaibhav_pic.png";
 const Team = () => {
   const executives = [{
     name: "Akshay Kumar Ankalagi",
     role: "Chief Executive Officer",
     bio: "Akshay Kumar Ankalagi is the visionary CEO of CascadeTech Solutions, bringing extensive experience in technology leadership and business transformation. His strategic insights and forward-thinking approach have positioned CascadeTech as a leader in digital innovation. Akshay specializes in identifying market opportunities and developing solutions that create lasting value for clients across industries.",
-    image: "/lovable-uploads/be98e5e5-99ac-4c7b-ac30-866513171c74.png",
+    image: akshay,
     links: {
       linkedin: "https://www.linkedin.com/in/akshaykumar-ankalagi-10b37933a",
       email: "akshay@cascadetech.com"
@@ -17,7 +20,7 @@ const Team = () => {
     name: "Manoj Relekar",
     role: "Chief Operating Officer",
     bio: "Manoj Relekar serves as the operational backbone of CascadeTech Solutions, bringing exceptional organizational leadership and process optimization expertise. With a background spanning technology and business operations, Manoj ensures that our service delivery consistently exceeds client expectations. His methodical approach to scaling operations has been instrumental in CascadeTech's sustainable growth trajectory.",
-    image: "/lovable-uploads/70b40e32-bd68-4d8b-a372-025f2489b8df.png",
+    image: manoj,
     links: {
       linkedin: "https://www.linkedin.com/in/manojrelekar3/",
       email: "manoj@cascadetech.com"
@@ -26,7 +29,7 @@ const Team = () => {
     name: "Vaibhava BG",
     role: "Chief Technology Officer",
     bio: "Vaibhava BG leads CascadeTech's technical innovation as CTO, combining deep technical expertise with creative problem-solving abilities. His passion for emerging technologies like AI, blockchain, and cloud architecture drives our product development roadmap. Vaibhava's leadership in building scalable, secure digital platforms has been crucial in delivering transformative solutions for our clients' most complex challenges.",
-    image: "/lovable-uploads/801e4b6c-582c-475b-b9de-c4a3d531051f.png",
+    image: vaibhava,
     links: {
       linkedin: "https://www.linkedin.com/in/vaibhav-b-g-284b63346",
       email: "vaibhava@cascadetech.com"
@@ -170,7 +173,7 @@ const Team = () => {
                 <Button as={Link} to="/contact" className="bg-white text-cascade-800 hover:bg-slate-100">
                   Contact Our Team
                 </Button>
-                <Button as={Link} to="/services" variant="outline" className="text-white border-white bg-White/10 hover:">
+                <Button as={Link} to="/services" variant="outline" className="text-white border-white bg-White/10 hover:bg-White/20">
                   Explore Our Services <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
