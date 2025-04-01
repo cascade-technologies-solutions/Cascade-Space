@@ -62,7 +62,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900">Email Us</h3>
-                  <p className="mt-1 text-slate-600">hello@cascadespace.com</p>
+                  <p className="mt-1 text-slate-600">cascade.space@gmail.com</p>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900">Call Us</h3>
-                  <p className="mt-1 text-slate-600">+1 (555) 123-4567</p>
+                  <p className="mt-1 text-slate-600">+91 7406899490</p>
                 </div>
               </div>
 
@@ -87,7 +87,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900">Visit Us</h3>
-                  <p className="mt-1 text-slate-600">123 Innovation Drive, Tech Valley, CA 94043</p>
+                  <p className="mt-1 text-slate-600">Bengaluru, Karnataka, India</p>
                 </div>
               </div>
             </div>
