@@ -15,7 +15,7 @@ export function Hero() {
           
 
           <h1 className="font-display font-bold text-slate-900 animate-fade-in [animation-delay:150ms]">
-            Transforming Ideas into{" "}
+            Delivering Intelligent and Scalable{" "}
             <span className="relative inline-block">
               <span className="text-cascade-600">Digital Solutions</span>
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-cascade-600/30 rounded-full"></span>
@@ -23,17 +23,15 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-xl text-slate-600 max-w-2xl mx-auto animate-fade-in [animation-delay:300ms] text-balance">
-            Cascade Space builds intelligent software, websites, apps, and AI-driven
-            platforms to enhance productivity and scalability for businesses
-            and entrepreneurs.
+           Cascade Space specializes in building advanced software, web platforms, and artificial intelligence solutions that empower businesses to innovate, streamline operations, and achieve sustainable growth.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-in [animation-delay:450ms]">
             <Button as={Link} to="/services" size="lg">
-              Explore Services
+              Explore Our Expertise
             </Button>
             <Button as={Link} to="/contact" variant="outline" size="lg">
-              Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
+              Engage Our Consultants <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
         </div>
@@ -48,8 +46,7 @@ export function Hero() {
             </div>
             <h3 className="text-lg font-semibold text-slate-900">Digital Transformation</h3>
             <p className="mt-2 text-slate-600">
-              Establish a powerful online presence with websites, apps, and automation tools.
-            </p>
+Strengthen your organization’s digital foundation through enterprise-grade websites, mobile applications, and intelligent automation frameworks.            </p>
           </div>
 
           <div className="glass-card p-6 group hover:shadow-md transition-all duration-300">
@@ -60,8 +57,7 @@ export function Hero() {
             </div>
             <h3 className="text-lg font-semibold text-slate-900">Startup Ecosystem</h3>
             <p className="mt-2 text-slate-600">
-              Connect founders with investors and resources through platforms like Startopia.
-            </p>
+Enable founders to access investors, resources, and scalable platforms that foster accelerated growth and sustainable business outcomes.            </p>
           </div>
 
           <div className="glass-card p-6 group hover:shadow-md transition-all duration-300">
@@ -71,7 +67,7 @@ export function Hero() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold text-slate-900">AI & Smart Solutions</h3>
-            <p className="mt-2 text-slate-600">We build intelligent systems that automate processes, unlock data insights, and drive significant ROI.</p>
+            <p className="mt-2 text-slate-600">Deploy intelligent systems that automate critical workflows, generate actionable insights, and deliver measurable returns on investment..</p>
           </div>
 
           <div className="glass-card p-6 group hover:shadow-md transition-all duration-300">
@@ -82,8 +78,7 @@ export function Hero() {
             </div>
             <h3 className="text-lg font-semibold text-slate-900">Design & Branding</h3>
             <p className="mt-2 text-slate-600">
-              Create intuitive UI/UX, branding, and marketing materials aligned with business goals.
-            </p>
+Craft sophisticated user experiences, distinctive brand identities, and strategic communication assets aligned with organizational objectives            </p>
           </div>
         </div>
       </Container>

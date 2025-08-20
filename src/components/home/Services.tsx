@@ -53,8 +53,7 @@ export function Services() {
             Ready to Transform Your Business?
           </h2>
           <p className="mt-4 text-lg text-slate-600 animate-fade-in [animation-delay:300ms]">
-            We provide cutting-edge technology solutions tailored to your business needs. Our expertise spans from web development to AI solutions.
-          </p>
+Cascade Space delivers cutting-edge technology solutions designed to align with your business objectives. Our expertise spans from digital transformation to artificial intelligence, ensuring measurable outcomes at every stage of engagement.          </p>
           <div className="mt-8 animate-fade-in [animation-delay:450ms]">
             <Button as={Link} to="/services" className="shadow-lg hover:shadow-xl">
               Explore Our Services <ArrowRight className="ml-2 h-4 w-4" />

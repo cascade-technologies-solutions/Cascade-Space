@@ -14,8 +14,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-slate-600 max-w-md">
-              An innovative technology company specializing in web design, website development, and software solutions.
-            </p>
+Empowering businesses through cutting-edge technology, specializing in web design, software development, and intelligent digital solutions.            </p>
             <div className="mt-6 flex space-x-4">
               <a href="https://linkedin.com/company/cascade-technologies" target="_blank" rel="noopener noreferrer" className="h-10 w-10 flex items-center justify-center rounded-full bg-white shadow-sm border border-slate-200 text-slate-600 hover:text-cascade-600 transition-colors">
                 <Linkedin size={18} />
@@ -40,9 +39,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/team" className="text-slate-600 hover:text-cascade-600 transition-colors">
+                {/* <Link to="/team" className="text-slate-600 hover:text-cascade-600 transition-colors">
                   Our Team
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <Link to="/contact" className="text-slate-600 hover:text-cascade-600 transition-colors">
@@ -76,11 +75,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">Loayalty Program Solutions</a>
+                <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">Educational Technology</a>
               </li>
               <li>
                 <a href="/services" className="text-slate-600 hover:text-cascade-600 transition-colors">
-                  Educational Technology
+                  Loayalty Program Solutions
                 </a>
               </li>
             </ul>
@@ -91,19 +90,19 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <Mail size={18} className="text-cascade-600 mt-0.5" />
-                <span className="text-slate-600">contact@cascadespace.com</span>
+                <span className="text-slate-600">cascadetechnologiessolutions@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-cascade-600 mt-0.5" />
                 <span className="text-slate-600">
-                  Bengaluru, Karnataka, India
+                  Vidya-Nagar Hubbali, Karnataka, India
                 </span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-slate-200 text-center text-sm text-slate-500">
+        <div className="mt-12 pt-8 border-t border-slate-200 text-center text-bold text-slate-500">
           <p>© {new Date().getFullYear()} CascadeTech Solutions. All rights reserved.</p>
         </div>
       </Container>

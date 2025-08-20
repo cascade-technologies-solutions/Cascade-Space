@@ -35,10 +35,9 @@ const About = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
                   Simplifying Complex Challenges Through Technology
                 </h2>
-                <p className="mt-4 text-lg text-slate-600">At CascadeTech Solutions, we are dedicated to enabling businesses to grow, innovate, and scale with cost-effective, high-quality technology solutions. We believe that technology should be accessible and empowering.</p>
+                <p className="mt-4 text-lg text-slate-600">At Cascade Space, our mission is to transform complexity into clarity. We are dedicated to enabling organizations to innovate, expand, and thrive through cost-effective, high-quality digital solutions.</p>
                 <p className="mt-4 text-lg text-slate-600">
-                  Our mission is to transform complex technical challenges into 
-                  simple, elegant solutions that drive real business outcomes.
+                We believe technology should be accessible, empowering, and designed to deliver measurable business outcomes. By addressing intricate technical challenges with elegant and scalable solutions, we ensure that every innovation we create drives sustainable growth and long-term value.
                 </p>
                 <div className="mt-8">
                   <Button as={Link} to="/contact">
@@ -66,8 +65,7 @@ const About = () => {
                 The Principles That Guide Us
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-                These core values shape our approach to every project and client relationship.
-              </p>
+Our work is built upon a foundation of values that define who we are and how we serve our clients. These guiding principles shape our approach to every project, partnership, and solution we deliver.              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -79,8 +77,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">Innovation</h3>
                 <p className="mt-3 text-slate-600">
-                  We embrace new technologies and approaches to solve challenging 
-                  problems with creative, forward-thinking solutions.
+                 We embrace emerging technologies and forward-thinking strategies to address complex challenges with creativity and precision.
                 </p>
               </div>
 
@@ -92,8 +89,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">Scalability</h3>
                 <p className="mt-3 text-slate-600">
-                  We design and build solutions that can grow and adapt with 
-                  your business, from startup to enterprise scale.
+                 We design solutions that grow seamlessly with our clients — from startup initiatives to enterprise-level operations.
                 </p>
               </div>
 
@@ -105,8 +101,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">Empowerment</h3>
                 <p className="mt-3 text-slate-600">
-                  We create technology that empowers users and businesses to 
-                  achieve more, work smarter, and reach their full potential.
+                  We create technologies that enable businesses and individuals to achieve more, work smarter, and unlock their full potential.
                 </p>
               </div>
             </div>
@@ -129,11 +124,9 @@ const About = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
                   Becoming a Global Tech Powerhouse
                 </h2>
-                <p className="mt-4 text-lg text-slate-600">We're building toward a future where CascadeTech Solutions delivers global-level technology solutions with real impact across multiple sectors.</p>
+                <p className="mt-4 text-lg text-slate-600">Cascade Space is committed to building a future where innovation transcends boundaries. Our vision is to deliver world-class technology solutions with a transformative impact across industries and communities worldwide.</p>
                 <p className="mt-4 text-lg text-slate-600">
-                  Our vision includes expansion into renewable energy, trading platforms, 
-                  robotics, and infrastructure—creating technologies that shape a 
-                  better world for businesses and communities alike.
+                  Looking ahead, we aspire to expand into emerging domains such as renewable energy, advanced trading platforms, robotics, and infrastructure. By harnessing the power of technology to create sustainable and intelligent systems, we aim to shape a future that fosters progress, inclusivity, and long-term value for businesses and society alike.
                 </p>
                 <div className="mt-8">
                   <Button as={Link} to="/contact" variant="outline">

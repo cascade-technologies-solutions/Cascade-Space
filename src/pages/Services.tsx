@@ -15,10 +15,8 @@ const Services = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 animate-fade-in [animation-delay:150ms]">
               Innovative Solutions for Modern Businesses
             </h1>
-            <p className="mt-6 text-xl text-slate-600 animate-fade-in [animation-delay:300ms]">
-              We provide comprehensive technology services to help businesses 
-              establish, grow, and thrive in the digital landscape.
-            </p>
+            <p >             We provide comprehensive technology services designed to help businesses establish, expand, and succeed in today’s digital-first landscape.
+</p>
           </div>
         </Container>
       </section>
@@ -35,8 +33,7 @@ const Services = () => {
                 Establish a Powerful Online Presence
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-                We help businesses establish and enhance their digital footprint 
-                with custom websites, mobile applications, and automation tools.
+                We empower businesses to strengthen their digital identity through tailored websites, mobile applications, and automation solutions.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-start">
@@ -44,8 +41,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Custom Website Development</h3>
                     <p className="mt-1 text-slate-600">
-                      Responsive, high-performance websites tailored to your brand and business goals.
-                    </p>
+High-performance, responsive websites aligned with your brand and business objectives.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -53,8 +49,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Mobile App Development</h3>
                     <p className="mt-1 text-slate-600">
-                      Native and cross-platform mobile applications that engage users and drive conversions.
-                    </p>
+Engaging, cross-platform mobile applications that drive conversions and user satisfaction.                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -62,8 +57,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Process Automation</h3>
                     <p className="mt-1 text-slate-600">
-                      Streamline operations with automated workflows and digital process management.
-                    </p>
+Automated workflows and digital process management to streamline business operations and improve efficiency.                    </p>
                   </div>
                 </div>
               </div>
@@ -82,7 +76,7 @@ const Services = () => {
         </Container>
       </section>
 
-      {/* Startup Growth Platform */}
+      {/* Startup Growth Platform
       <section className="py-16 md:py-24 bg-slate-50">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -139,7 +133,7 @@ const Services = () => {
             </div>
           </div>
         </Container>
-      </section>
+      </section> */}
 
       {/* AI & Smart Solutions */}
       <section className="py-16 md:py-24">
@@ -153,8 +147,7 @@ const Services = () => {
                 Harness the Power of Artificial Intelligence
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-                We create AI-powered platforms and tools that provide intelligent
-                guidance, automate decision-making, and optimize business operations.
+                We build AI-driven platforms and tools that deliver strategic insights, automate processes, and enhance decision-making for modern businesses.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-start">
@@ -162,8 +155,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">AI Business Assistants</h3>
                     <p className="mt-1 text-slate-600">
-                      Intelligent virtual assistants that provide strategic guidance and support.
-                    </p>
+Intelligent virtual assistants that provide personalized guidance and support.                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -171,8 +163,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Data Analysis & Insights</h3>
                     <p className="mt-1 text-slate-600">
-                      Advanced analytics tools that transform raw data into actionable business insights.
-                    </p>
+Advanced analytics solutions that convert raw data into meaningful business intelligence.                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -180,8 +171,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Automated Decision Systems</h3>
                     <p className="mt-1 text-slate-600">
-                      AI-powered solutions that streamline and optimize complex decision processes.
-                    </p>
+AI-powered frameworks that optimize complex decision-making and improve operational efficiency.                    </p>
                   </div>
                 </div>
               </div>
@@ -200,16 +190,12 @@ const Services = () => {
         </Container>
       </section>
 
-      {/* Design & Branding */}
+           {/* Design & Branding */}
       <section className="py-16 md:py-24 bg-slate-50">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="animate-slide-in">
-              <div className="aspect-w-4 aspect-h-3 rounded-2xl bg-white overflow-hidden shadow-md">
-                <img alt="Design & Branding" className="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-              </div>
-            </div>
-            <div className="animate-slide-in [animation-delay:300ms]">
+            {/* Text first, Image second (same as other sections) */}
+            <div className="order-2 lg:order-1 animate-slide-in">
               <div className="inline-flex items-center px-3 py-1 mb-4 rounded-full bg-white border border-slate-200 text-cascade-700 text-sm font-medium">
                 Design & Branding
               </div>
@@ -217,8 +203,7 @@ const Services = () => {
                 Create Memorable Digital Experiences
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-                We design intuitive user interfaces and develop compelling brand
-                identities that resonate with your target audience.
+              We craft intuitive user interfaces and build strong brand identities that resonate with your audience, driving engagement and long-term loyalty.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-start">
@@ -226,8 +211,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">UI/UX Design</h3>
                     <p className="mt-1 text-slate-600">
-                      User-centric interface design that enhances engagement and conversion.
-                    </p>
+User-focused interface designs that enhance usability and boost customer satisfaction.                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -235,8 +219,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Brand Identity Development</h3>
                     <p className="mt-1 text-slate-600">
-                      Comprehensive branding solutions that communicate your unique value proposition.
-                    </p>
+Comprehensive branding strategies that reflect your unique value and vision.                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -244,8 +227,7 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Marketing Materials</h3>
                     <p className="mt-1 text-slate-600">
-                      Compelling digital assets that drive awareness and generate leads.
-                    </p>
+Compelling digital assets designed to increase awareness, strengthen presence, and generate leads.                    </p>
                   </div>
                 </div>
               </div>
@@ -253,6 +235,15 @@ const Services = () => {
                 <Button as={Link} to="/contact">
                   Start Your Project <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2 animate-slide-in [animation-delay:300ms]">
+              <div className="aspect-w-4 aspect-h-3 rounded-2xl bg-white overflow-hidden shadow-md">
+                <img
+                  alt="Design & Branding"
+                  className="w-full h-full object-cover"
+                  src="https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
               </div>
             </div>
           </div>
