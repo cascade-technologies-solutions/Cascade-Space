@@ -1,10 +1,10 @@
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import { MainLayout } from "@/components/layout/MainLayout";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { useState } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { toast } from "sonner";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -13,6 +13,7 @@ const Contact = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const {
       name,
@@ -23,6 +24,7 @@ const Contact = () => {
       [name]: value
     }));
   };
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -41,11 +43,11 @@ const Contact = () => {
       setIsSubmitting(false);
     }, 1500);
   };
-  return <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <main className="flex-grow pt-24">
+  
+  return (
+    <MainLayout>
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-to-b from-white to-slate-50 md:py-0">
+        <section className="py-16 md:py-24 bg-gradient-to-b from-white to-slate-50">
           <Container>
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center px-3 py-1 mb-6 rounded-full bg-cascade-50 border border-cascade-100 text-cascade-700 text-sm font-medium animate-fade-in">
@@ -63,9 +65,9 @@ const Contact = () => {
         </section>
 
         {/* Contact Form Section */}
-        <section className="py-16 md:py-[97px]">
+        <section className="py-16 md:py-24">
           <Container>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
               <div className="animate-slide-in">
                 <h2 className="text-3xl font-bold text-slate-900">
                   Contact Information
@@ -93,7 +95,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-slate-900">Phone</h3>
-                      <p className="mt-2 text-lg text-slate-600">+91 7406899490</p>
+                      {/* <p className="mt-2 text-lg text-slate-600">+91 7406899490</p> */}
+                      <p className="mt-2 text-lg text-slate-600">+91 8496835245</p>
                       <p className="mt-2 text-lg text-slate-600">+91 9902850039</p>
                       <p className="mt-1 text-slate-500">Monday-Friday, 9am-5pm PT</p>
                     </div>
@@ -131,7 +134,7 @@ const Contact = () => {
               </div>
 
               <div className="animate-slide-in [animation-delay:300ms]">
-                <div className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-100">
+                <div className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-100 h-fit">
                   <h2 className="text-2xl font-semibold text-slate-900">
                     Send Us a Message
                   </h2>
@@ -184,17 +187,16 @@ const Contact = () => {
         </section>
 
         {/* Map Section (Placeholder) */}
-        <section className="py-8">
+        <section className="py-16 md:py-24">
           <Container>
-            <div className="aspect-w-16 aspect-h-7 rounded-2xl bg-slate-100 overflow-hidden">
+            <div className="aspect-w-16 aspect-h-9 rounded-2xl bg-slate-100 overflow-hidden shadow-md">
               <div className="w-full h-full bg-gradient-to-r from-cascade-50 to-cascade-100 flex items-center justify-center">
                 <div className="text-2xl font-display font-bold text-cascade-700 animate-pulse-light">Map Placeholder</div>
               </div>
             </div>
           </Container>
         </section>
-      </main>
-      <Footer />
-    </div>;
+    </MainLayout>
+  );
 };
 export default Contact;

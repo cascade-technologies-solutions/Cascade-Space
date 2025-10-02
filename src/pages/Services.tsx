@@ -15,8 +15,9 @@ const Services = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 animate-fade-in [animation-delay:150ms]">
               Innovative Solutions for Modern Businesses
             </h1>
-            <p >             We provide comprehensive technology services designed to help businesses establish, expand, and succeed in today’s digital-first landscape.
-</p>
+            <p className="mt-6 text-xl text-slate-600 animate-fade-in [animation-delay:300ms]">
+              We provide comprehensive technology services designed to help businesses establish, expand, and succeed in today's digital-first landscape.
+            </p>
           </div>
         </Container>
       </section>
@@ -41,7 +42,8 @@ const Services = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Custom Website Development</h3>
                     <p className="mt-1 text-slate-600">
-High-performance, responsive websites aligned with your brand and business objectives.</p>
+                      High-performance, responsive websites aligned with your brand and business objectives.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -49,7 +51,8 @@ High-performance, responsive websites aligned with your brand and business objec
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Mobile App Development</h3>
                     <p className="mt-1 text-slate-600">
-Engaging, cross-platform mobile applications that drive conversions and user satisfaction.                    </p>
+                      Engaging, cross-platform mobile applications that drive conversions and user satisfaction.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -57,7 +60,8 @@ Engaging, cross-platform mobile applications that drive conversions and user sat
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Process Automation</h3>
                     <p className="mt-1 text-slate-600">
-Automated workflows and digital process management to streamline business operations and improve efficiency.                    </p>
+                      Automated workflows and digital process management to streamline business operations and improve efficiency.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -155,7 +159,8 @@ Automated workflows and digital process management to streamline business operat
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">AI Business Assistants</h3>
                     <p className="mt-1 text-slate-600">
-Intelligent virtual assistants that provide personalized guidance and support.                    </p>
+                      Intelligent virtual assistants that provide personalized guidance and support.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -163,7 +168,8 @@ Intelligent virtual assistants that provide personalized guidance and support.  
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Data Analysis & Insights</h3>
                     <p className="mt-1 text-slate-600">
-Advanced analytics solutions that convert raw data into meaningful business intelligence.                    </p>
+                      Advanced analytics solutions that convert raw data into meaningful business intelligence.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -171,7 +177,8 @@ Advanced analytics solutions that convert raw data into meaningful business inte
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Automated Decision Systems</h3>
                     <p className="mt-1 text-slate-600">
-AI-powered frameworks that optimize complex decision-making and improve operational efficiency.                    </p>
+                      AI-powered frameworks that optimize complex decision-making and improve operational efficiency.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -203,7 +210,7 @@ AI-powered frameworks that optimize complex decision-making and improve operatio
                 Create Memorable Digital Experiences
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-              We craft intuitive user interfaces and build strong brand identities that resonate with your audience, driving engagement and long-term loyalty.
+                We craft intuitive user interfaces and build strong brand identities that resonate with your audience, driving engagement and long-term loyalty.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-start">
@@ -211,7 +218,8 @@ AI-powered frameworks that optimize complex decision-making and improve operatio
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">UI/UX Design</h3>
                     <p className="mt-1 text-slate-600">
-User-focused interface designs that enhance usability and boost customer satisfaction.                    </p>
+                      User-focused interface designs that enhance usability and boost customer satisfaction.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -219,7 +227,8 @@ User-focused interface designs that enhance usability and boost customer satisfa
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Brand Identity Development</h3>
                     <p className="mt-1 text-slate-600">
-Comprehensive branding strategies that reflect your unique value and vision.                    </p>
+                      Comprehensive branding strategies that reflect your unique value and vision.
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -227,7 +236,8 @@ Comprehensive branding strategies that reflect your unique value and vision.    
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Marketing Materials</h3>
                     <p className="mt-1 text-slate-600">
-Compelling digital assets designed to increase awareness, strengthen presence, and generate leads.                    </p>
+                      Compelling digital assets designed to increase awareness, strengthen presence, and generate leads.
+                    </p>
                   </div>
                 </div>
               </div>

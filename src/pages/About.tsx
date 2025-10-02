@@ -1,13 +1,12 @@
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import { MainLayout } from "@/components/layout/MainLayout";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+
 const About = () => {
-  return <div className="min-h-screen flex flex-col">
-      <Navbar className="py-0" />
-      <main className="flex-grow pt-24">
+  return (
+    <MainLayout>
         {/* Hero Section */}
         <section className="py-16 md:py-24 bg-gradient-to-b from-white to-slate-50">
           <Container>
@@ -35,9 +34,11 @@ const About = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
                   Simplifying Complex Challenges Through Technology
                 </h2>
-                <p className="mt-4 text-lg text-slate-600">At Cascade Space, our mission is to transform complexity into clarity. We are dedicated to enabling organizations to innovate, expand, and thrive through cost-effective, high-quality digital solutions.</p>
                 <p className="mt-4 text-lg text-slate-600">
-                We believe technology should be accessible, empowering, and designed to deliver measurable business outcomes. By addressing intricate technical challenges with elegant and scalable solutions, we ensure that every innovation we create drives sustainable growth and long-term value.
+                  At Cascade Space, our mission is to transform complexity into clarity. We are dedicated to enabling organizations to innovate, expand, and thrive through cost-effective, high-quality digital solutions.
+                </p>
+                <p className="mt-4 text-lg text-slate-600">
+                  We believe technology should be accessible, empowering, and designed to deliver measurable business outcomes. By addressing intricate technical challenges with elegant and scalable solutions, we ensure that every innovation we create drives sustainable growth and long-term value.
                 </p>
                 <div className="mt-8">
                   <Button as={Link} to="/contact">
@@ -65,7 +66,8 @@ const About = () => {
                 The Principles That Guide Us
               </h2>
               <p className="mt-4 text-lg text-slate-600">
-Our work is built upon a foundation of values that define who we are and how we serve our clients. These guiding principles shape our approach to every project, partnership, and solution we deliver.              </p>
+                Our work is built upon a foundation of values that define who we are and how we serve our clients. These guiding principles shape our approach to every project, partnership, and solution we deliver.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -77,7 +79,7 @@ Our work is built upon a foundation of values that define who we are and how we 
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">Innovation</h3>
                 <p className="mt-3 text-slate-600">
-                 We embrace emerging technologies and forward-thinking strategies to address complex challenges with creativity and precision.
+                  We embrace emerging technologies and forward-thinking strategies to address complex challenges with creativity and precision.
                 </p>
               </div>
 
@@ -89,7 +91,7 @@ Our work is built upon a foundation of values that define who we are and how we 
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">Scalability</h3>
                 <p className="mt-3 text-slate-600">
-                 We design solutions that grow seamlessly with our clients — from startup initiatives to enterprise-level operations.
+                  We design solutions that grow seamlessly with our clients — from startup initiatives to enterprise-level operations.
                 </p>
               </div>
 
@@ -137,8 +139,7 @@ Our work is built upon a foundation of values that define who we are and how we 
             </div>
           </Container>
         </section>
-      </main>
-      <Footer />
-    </div>;
+    </MainLayout>
+  );
 };
 export default About;

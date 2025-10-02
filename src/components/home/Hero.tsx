@@ -15,15 +15,15 @@ export function Hero() {
           
 
           <h1 className="font-display font-bold text-slate-900 animate-fade-in [animation-delay:150ms]">
-            Delivering Intelligent and Scalable{" "}
+            Delivering Intelligent and{" "}
             <span className="relative inline-block">
-              <span className="text-cascade-600">Digital Solutions</span>
+              <span className="text-cascade-600">Scalable Digital Solutions</span>
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-cascade-600/30 rounded-full"></span>
             </span>
           </h1>
 
           <p className="mt-6 text-xl text-slate-600 max-w-2xl mx-auto animate-fade-in [animation-delay:300ms] text-balance">
-           Cascade Space specializes in building advanced software, web platforms, and artificial intelligence solutions that empower businesses to innovate, streamline operations, and achieve sustainable growth.
+            Cascade Space specializes in building advanced software, web platforms, and artificial intelligence solutions that empower businesses to innovate, streamline operations, and achieve sustainable growth.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center animate-fade-in [animation-delay:450ms]">
